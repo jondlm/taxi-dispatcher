@@ -66,7 +66,7 @@ defaults to hit `localhost:3001`.
 
 ## Question 2
 
-Using the pre-bootstrapped `create-create-app` located in this git repo, create
+Using the pre-bootstrapped `create-react-app` located in this git repo, create
 a page that allows a user to type in a "location" and a "destination" that will
 create the record on the server you created in question 1.
 
