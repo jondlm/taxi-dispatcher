@@ -58,8 +58,7 @@ Instead of a connecting to a database, you can use an in-memory data store. For 
 
 <details>
   <summary>Gif</summary>
-  <img src="https://github.com/jondlm/taxi-dispatch/raw/master/img/taxi-dispatch-api.gif" alt="question1">
-  ![example]()
+  <img src="https://raw.githubusercontent.com/jondlm/taxi-dispatcher/master/img/taxi-dispatch-api.gif" alt="question1">
 </details>
 
 ## Question 2
@@ -70,5 +69,5 @@ create the record on the server you created in question 1.
 
 <details>
   <summary>Gif</summary>
-  <img src="https://github.com/jondlm/taxi-dispatch/raw/master/img/taxi-dispatch-creation-ui.gif" alt="question2">
+  <img src="https://raw.githubusercontent.com/jondlm/taxi-dispatcher/master/img/taxi-dispatch-creation-ui.gif" alt="question2">
 </details>
