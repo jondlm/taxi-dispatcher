@@ -4,7 +4,7 @@
 
 Create a node service for a Taxi Dispatcher app that implements this API:
 
-# POST /ride-request
+### POST /ride-request
 
 Creates a new 'ride-request' object.
 
@@ -23,7 +23,7 @@ Response:
       "destination": "..."
     }
 
-# GET /ride-request
+### GET /ride-request
 
 Responds with a JSON array of 'ride-request' objects.
 
@@ -35,7 +35,7 @@ Response:
       { "time": "...", "location": "...", "destination": "..." }
     ]
 
-# GET /ride-request/oldest
+### GET /ride-request/oldest
 
 Responds with the oldest 'ride-request' object.
 
@@ -58,7 +58,8 @@ Instead of a connecting to a database, you can use an in-memory data store. For 
 
 <details>
   <summary>Gif</summary>
-  ![example](https://github.com/jondlm/taxi-dispatch/raw/master/img/taxi-dispatch-api.gif)
+  <img src="https://github.com/jondlm/taxi-dispatch/raw/master/img/taxi-dispatch-api.gif" alt="question1">
+  ![example]()
 </details>
 
 ## Question 2
@@ -69,5 +70,5 @@ create the record on the server you created in question 1.
 
 <details>
   <summary>Gif</summary>
-  ![example2](https://github.com/jondlm/taxi-dispatch/raw/master/img/taxi-dispatch-creation-ui.gif)
+  <img src="https://github.com/jondlm/taxi-dispatch/raw/master/img/taxi-dispatch-creation-ui.gif" alt="question2">
 </details>
