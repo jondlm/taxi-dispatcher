@@ -8,7 +8,7 @@ Create a node service for a Taxi Dispatcher app that implements this API:
 
 Creates a new 'ride-request' object.
 
-Body:
+Payload:
 
     {
       "location": "...",
@@ -39,7 +39,7 @@ Response:
 
 Responds with the oldest 'ride-request' object.
 
-Body:
+Response:
 
     {
       "time": 1500000000000,
