@@ -56,8 +56,11 @@ Instead of a connecting to a database, you can use an in-memory data store. For 
       { time: 15000000000, location: 'OMSI', destination: 'NW Alder & Broadway' },
     ];
 
+Run `npm test` to run a small test suite that will validate your server. It
+defaults to hit `localhost:3001`.
+
 <details>
-  <summary>Gif</summary>
+  <summary>Example gif</summary>
   <img src="https://raw.githubusercontent.com/jondlm/taxi-dispatcher/master/img/taxi-dispatch-api.gif" alt="question1">
 </details>
 
@@ -68,6 +71,6 @@ a page that allows a user to type in a "location" and a "destination" that will
 create the record on the server you created in question 1.
 
 <details>
-  <summary>Gif</summary>
+  <summary>Example gif</summary>
   <img src="https://raw.githubusercontent.com/jondlm/taxi-dispatcher/master/img/taxi-dispatch-creation-ui.gif" alt="question2">
 </details>
