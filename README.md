@@ -66,11 +66,7 @@ defaults to hit `localhost:3001`.
 
 ## Question 2
 
-Using the pre-bootstrapped `create-react-app` located in this git repo, create
-a page that allows a user to type in a "location" and a "destination" that will
-create the record on the server you created in question 1.
+Refactor the code found in `src/App.js` to only validate the email input when
+the user hovers over the "Submit" button. Make sure the "Submit" button is
+disabled when the component is in an invalid state.
 
-<details>
-  <summary>Example gif</summary>
-  <img src="https://raw.githubusercontent.com/jondlm/taxi-dispatcher/master/img/taxi-dispatch-creation-ui.gif" alt="question2">
-</details>
