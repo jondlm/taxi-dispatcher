@@ -28,8 +28,6 @@ const createRideRequest2 = createRideRequest1
   )
   .then(res => res.json());
 
-describe("create ride-request", () => {});
-
 describe("/ride-requests", () => {
   it("should correctly create a ride request", () => {
     return createRideRequest1.then(data => {
